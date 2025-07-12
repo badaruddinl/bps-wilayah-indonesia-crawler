@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "Crawler data wilayah Indonesia berdasarkan API Bridging BPS dan Kemendagri",
   "main": "crawling.js",
+  "type": "module",
   "scripts": {
-    "start": "node crawling.js"
+    "start": "node full-crawling.js",
+    "crawl": "node crawling.js",
+    "simplify": "node simplify-crawling.js"
   },
   "keywords": [
     "bps",
     "kemendagri",
     "crawler",
     "wilayah",
-    "indonesia"
+    "indonesia",
+    "administratif",
+    "json"
   ],
   "author": "Badaruddin Luthfi",
   "license": "MIT",
